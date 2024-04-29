@@ -1,0 +1,174 @@
+@media all and (max-width:575px) {
+    .navbar .navs ul{
+        display: none;
+    }
+    .title h1{
+        font-size: 40px;
+    }
+    .container .second .profile{
+        border: none;
+    }
+    .container .second .prof{
+        width: 100%;
+    }
+    .container .second .descrip{
+        width: 100%;
+    }
+    .li2{
+        padding-left: 0px;
+    }
+    .jops .ui{
+        width: 100%;
+    }
+    .choose h5{
+        margin: 10px 2px;
+        font-weight: 100;
+        font-size: 16px;
+    }
+    .hour{
+        width: 100%;
+    }
+    .back-color .container .count .counter{
+        width: 100%;
+    }
+    .six .feedback .sora{
+        width: 100%;
+    }
+    .six .feedback{
+        width: 100%;
+        margin: 30px 0px;
+    }
+    .six .feedback .alex{
+        width:100%;
+    }
+    .container .title2{
+        text-align: center;
+        padding-top: 50px;
+        line-height: 30px;
+        color: #333333;
+        font-size:20px;
+        font-family: 'Source Sans 3', sans-serif;
+        font-weight: 600;
+    }
+    .vedio{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+    }
+    .text2{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+@media all and (min-width:576px) and (max-width:767px) {
+    .navbar .navs ul{
+        display: none;
+    }
+    .title h1{
+        font-size: 40px;
+    }
+    .container .second .profile{
+        border: none;
+    }
+    .container .second .prof{
+        width: 50%;
+    }
+    .container .second .descrip{
+        width: 50%;
+    }
+    .li2{
+        padding-left: 5px;
+    }
+    .jops .ui{
+        width: 50%;
+    }
+    .choose h5{
+        font-weight: 100;
+        font-size: 16px;
+    }
+    .hour{
+        width: 50%;
+    }
+    .back-color .container .count .counter{
+        width: 25%;
+    }
+    
+    .container .title2{
+        text-align: center;
+        padding-top: 50px;
+        line-height: 30px;
+        color: #333333;
+        font-size:20px;
+        font-family: 'Source Sans 3', sans-serif;
+        font-weight: 600;
+    }
+    .six .feedback .sora{
+        width: 30%;
+            width: 25%;
+            padding: 5px;
+    }
+    .six .feedback{
+        padding: 10px;
+        width: 80%;
+        margin: 30px 0px;
+    }
+    .six .feedback .alex{
+        width:70%;
+    }
+
+}
+@media all and (min-width:768px) and (max-width:991px) {
+    .title h1{
+        font-size: 40px;
+    }
+    .container .second .profile{
+        border: none;
+    }
+    .li2{
+        padding-left: 5px;
+    }
+    .jops .ui{
+        width: 50%;
+    }
+    .choose h5{
+        font-weight: 100;
+        font-size: 16px;
+    }
+    .hour{
+        width: 50%;
+    }
+    .back-color .container .count .counter{
+        width: 25%;
+    }
+    
+    .container .title2{
+        text-align: center;
+        padding-top: 50px;
+        line-height: 30px;
+        color: #333333;
+        font-size:20px;
+        font-family: 'Source Sans 3', sans-serif;
+        font-weight: 600;
+    }
+    .text{
+        width: 100%;
+    }
+    .feedback{
+        width: 100%;
+    }
+}
+@media all and (min-width:992px) {
+    .title h1{
+        font-size: 40px;
+    }
+    .container .second .prof{
+        width: 50%;
+    }
+    .container .second .descrip{
+        width: 50%;
+        padding-left: 10px;
+    }
+    
+    
+}

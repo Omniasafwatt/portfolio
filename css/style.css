@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url(../images/hero\ img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.title h3{
+    font-family: 'Source Sans 3', sans-serif;
+    position: absolute;
+    top: 41.5%;
+    left: 47.1%;
+    color: #fff;
+    line-height: 26.4px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.title h1{
+    font-family: 'Source Sans 3', sans-serif;
+    position: absolute;
+    top: 45.9%;
+    left: 40%;
+    color: #FF305B;
+    line-height: 77px;
+    font-size: 70px;
+    font-weight: 700;
+}
+.title .animat{
+    font-family: 'Source Sans 3', sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+
+.animat .static-txt{
+    float: left;
+    color: #ffffffdc;
+    line-height: 31.2px;
+    font-size: 26px;
+    font-weight: 100;
+}
+.animat .dynamic-txt{
+    float: left;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+.dynamic-txt li span{
+    list-style: none;
+    color: #ffffffdc;
+    line-height: 31.2px;
+    font-size: 26px;
+    font-weight: 100;
+}
+.dynamic-txt li span{
+    position: relative;
+}
+.dynamic-txt li span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    border-left: 2px solid #ffffffdc;
+    animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+.navbar{
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    z-index: 22;
+    width: 100%;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.logo h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 15px;
+    padding-left: 64%;
+    color: #FF305B;
+    cursor: pointer;
+}
+.navs{
+    float: left;
+    width: 70%;
+}
+ul{
+    list-style: none;
+}
+.navbar .navs ul{
+    overflow: hidden;
+    float: right;
+    padding-right: 29.1%;
+    padding-top: 8px;
+    font-weight: 100;
+}
+.navbar .navs ul li{
+    float: left;
+    margin: 11px;
+}
+
+.navs ul li a{
+    font-family: 'Roboto', sans-serif;
+    color: #FFF7F8;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.navs ul li a:hover{
+    color: #FF305B;
+}
+.navs ul li .ho{
+    color: #FF305B;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.container .second{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.container .second .portfolio{
+    width: 50%;
+    height: 60vh;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.container .second .profile{
+    border: 8px solid #555555;
+    border-radius: 5px;
+    width: 60%;
+    height: 45vh;
+    margin-left: 22%;
+    margin-top: 30px;
+}
+.container .second .prof{
+    position: absolute;
+    top: 10%;
+    left: 27%;
+    overflow: hidden;
+
+}
+.container .second .prof img{
+width: 100%;
+height: 45vh;
+border-radius: 5px;
+}
+.container .second .prof .icons{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.57);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition:top 0.6s;
+}
+.container .second .prof:hover .icons{
+    top: 0;
+}
+.icons i{
+    margin-top: 60%;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.icons i:hover{
+    color: #FF305B;
+}
+
+.container .second .descrip{
+    width: 50%;
+    float: left;
+}
+.container .second .descrip h2{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+    padding: 20px;
+    position: relative;
+}
+.container .second .descrip h2::before{
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 5px;
+    left: 0Px;
+    bottom: 22px;
+    background-color: #FF305B;
+}
+.container .second .descrip p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-weight: 400;
+    color: #555555;
+    border-bottom: 1px dashed #555555;
+    padding-bottom: 20px;
+}
+.data{
+    overflow: hidden;
+    margin: 15px 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+    font-weight: 400;
+    color: #555555;
+}
+span{
+    color: #333333;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+.li1{
+    float: left;
+}
+.li1 li{
+    margin-top: 20px;
+}
+.li2{
+    float: left;
+    padding-left: 70px;
+}
+.li2 li{
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    color: #fff;
+    background-color: #FF305B;
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #EC2403;
+}
+.back-color{
+    background-color: #F1F1F1;
+    overflow: hidden;
+}
+.container2{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.container .title2{
+    text-align: center;
+    padding-top: 50px;
+    line-height: 30px;
+    color: #333333;
+    font-size: 30px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 800;
+}
+.container .title2 .line1{
+    height: 1px;
+    width: 65px;
+    background-color: #FF305B;
+    margin-left: 47%;
+    margin-top: 20px;
+}
+.container .title2 .line2{
+    height: 1px;
+    width: 165px;
+    background-color: #FF305B;
+    margin-left: 43%;
+    margin-top: 5px;
+}
+.container .title2 .line3{
+    height: 1px;
+    width: 65px;
+    background-color: #FF305B;
+    margin-left: 47%;
+    margin-top: 5px;
+}
+.jops{
+    margin: 50px 0px;
+    overflow: hidden;
+}
+.jops .ui{
+    float: left;
+    width: 25%;
+    text-align: center;
+    transition: box-shadow 0.4s ;
+    border-radius: 5px;
+}
+.jops .ui:hover{
+    box-shadow: 0px 10px 44px 0px rgba(0,0,0,0.62);
+    -webkit-box-shadow: 0px 10px 44px 0px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 10px 44px 0px rgba(0,0,0,0.62);  
+    background-color: white;
+}
+.jops .ui i{
+    padding: 40px 40px 20px 40px;
+    font-size: 30px;
+    color:#FF305B;
+}
+.jops .ui h3{
+    line-height: 26.4px;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 600;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.jops .ui p{
+    line-height: 25px;
+    color: #555555;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    padding-bottom: 30px;
+}
+.choose h5{
+    margin: 50px 12px;
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.choose .all{
+    color: #FF305B;
+}
+.hour{
+    width: 33.33%;
+    float: left;
+    border: 15px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+.hour img{
+    width: 100%;
+}
+.hour .folder{
+    background-color: rgba(0, 0, 0, 0.57);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: background-color 2s;
+}
+.hour .folder i{
+    font-size: 23px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #FF305B;
+}
+.hour:hover .folder{
+    top: 0;
+}
+
+.container .second .prof .icons{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.57);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition:top 0.6s;
+}
+.container .second .prof:hover .icons{
+    top: 0;
+}
+.back-color{
+    margin: 70px 0;
+    background-color:#F1F1F1;
+}
+.back-color .container .count .counter{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 50px;
+    margin: 40px 0;
+}
+.back-color .container .count .counter i{
+    font-size: 30px;
+    color:#FF305B;
+}
+.back-color .container .count .counter h3{
+    line-height: 28.6px;
+    font-size: 26px;
+    color: #333333;
+    font-weight: 800;
+    padding: 13px;
+}
+.back-color .container .count .counter h5{
+    color: #555555;
+    line-height: 17px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+.six{
+
+    margin: auto;
+}
+.color{
+    background-color: #FF305B ;
+    height: 180px;
+    width: 70%;
+    position: absolute;
+    transform: rotate(315deg);
+    right: 510px;
+    bottom: 80px;
+}
+.six .feedback{
+    background-color: #F1F1F1;
+    width: 68%;
+    margin: 30px 175px;
+    overflow: hidden;
+    padding: 40px;
+    border-radius: 5px;
+    position: relative;
+}
+.six .feedback .sora{
+    float: left;
+    width: 25%;
+    padding: 25px;
+    overflow: hidden;
+}
+.six .feedback .sora img{
+    width: 100%;
+    border-radius: 50%;
+    position: relative;
+    z-index: 22;
+}
+
+.six .feedback .alex{
+    float: left;
+    width: 75%;
+}
+.six .feedback .alex h3{
+    color: #333333;
+    font-size: 26px;
+    line-height: 28.6px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+}
+.six .feedback .alex h6{
+    color: #777777;
+    font-size: 15px;
+    line-height: 16.5px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.six .feedback .alex p{
+    color: #555555;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.six .feedback .alex ul li{
+    display: inline-block;
+    margin: 25px 0;
+}
+.six .feedback .alex ul li i{
+    color: #F1C30D;
+}
+.vedios{
+    margin: 40px 0;
+    overflow: hidden;
+}
+.vedio{
+    width: 33.33%;
+    float: left;
+    border: 15px solid #F1F1F1;
+    background-color:white;
+}
+.vedio img{
+    width: 100%;
+    height: 20%;
+    cursor: pointer;
+}
+.vedio iframe{
+    width: 100%;
+    height: 20%;
+}
+.vedio p{
+    color: #555555;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 15px 10px;
+}
+.vedio h3{
+    color:#333333;
+    line-height: 26.4px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+.vedio h3:hover{
+    color: #FF305B;
+    cursor: pointer;
+}
+.vedio h4{
+    color:#333333;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 30px 10px;
+    transition: 0.5s;
+}
+.vedio h4:hover{
+    color: #FF305B;
+    cursor: pointer;
+}
+.contact{
+    width: 65%;
+    margin: auto;
+}
+.text1{
+    border:1px solid rgba(181, 178, 178, 0.57);
+    width: 49%;
+    padding: 13px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.text2{
+    border:1px solid rgba(181, 178, 178, 0.57);
+    width: 48.5%;
+    padding: 13px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.text3{
+    border:1px solid rgba(181, 178, 178, 0.57);
+    width: 100%;
+    padding: 13px;
+    border-radius: 5px;
+    margin: 40px 0;
+}
+.text4{
+    border:1px solid rgba(181, 178, 178, 0.57);
+    width: 100%;
+    padding: 13px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.send{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    background-color: #FF305B;
+    font-weight: 500;
+}
+.send:hover{
+    background-color: #EC2403;
+    transition: 1s;
+}
+.footer{
+    background-color: #333333;
+    margin-top: 90px;
+}
+.foot{
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+.foot i{
+    font-size: 17px;
+    color: #fff;
+    padding: 10px;
+    transition: 0.6s;
+}
+.foot i:hover{
+    color:#FF305B;
+    cursor: pointer;
+}
+.foot p{
+    color: #fff;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+}
+.foot p span{
+    color: #FF305B;
+}
+
+
+
+
+
+
+
+
